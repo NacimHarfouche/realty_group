@@ -1,0 +1,125 @@
+/* Global */
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+hr {
+	color: #2cbcd6;
+	width: 99%;
+	height: 2px;
+	background-color: #2cbcd6;
+}
+
+/* Entête de la page */
+header {
+	display: block;
+	width: 100%;
+	height: 10.5rem;
+}
+#logoSite {
+	margin-top: -3.5rem;
+	float: left;
+}
+h1 {
+	margin-top: 4rem;
+	color: #a29e9d;
+	font-style: italic;
+}
+nav {
+	text-align: center;
+	clear: both;
+	z-index: 3;
+}
+#mainMenu .touche {
+	display: inline-block;
+	padding: 22px 25px 22px 22px;
+}
+#mainMenu .touche:hover, .touche:hover a.ongletLien {
+	background-color: #2cbcd6;
+	color: white;
+}
+nav ul li .hidden {
+	margin: 0 auto;
+	display: none;
+	list-style: none;
+	position: absolute;
+	background-color: #2cbcd6;
+	width: 100%;
+	height: 28rem;
+	left: 0;
+	bottom: 15rem;
+	top: 239px;
+}
+li.touche:hover div.hidden {
+	display: block;
+}
+div.hidden div {
+	display: inline-block;
+	vertical-align: top;
+}
+div.hidden div ul {
+	display: block;
+}
+div ul li, div ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	line-height: 1.7;
+}
+div ul {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 3rem;
+	margin-right: 6rem;
+}
+li h2 {
+	color: #8added;
+}
+a.ongletLien {
+	text-decoration: none;
+	color: #2cbcd6;
+	list-style: none;
+	font-weight: bold;
+}
+
+/* Corps de la page */
+main {
+	width: 60%;
+	margin: 0 auto;
+	z-index:-1;
+}
+article {
+	margin: 5% 0;
+}
+article h2 {
+	color: #2cbcd6;
+	font-size: 1.8rem;
+}
+article p {
+	color: #a29e9d;
+	line-height: 2;
+}
+
+
+/* FOOTER */
+.licence a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.licence {
+	background-color: #2cbcd6;
+	padding: 10px;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.licence img {
+    width: 50px;
+}
+
+.licence p {
+	color: #a29e9d;
+}
